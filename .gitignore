@@ -2,6 +2,8 @@
 *.sublime-project
 *.sublime-workspace
 .sass-cache/
+*.gem
+.bundle
 
 # OS generated files
 .DS_Store

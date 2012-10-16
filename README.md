@@ -39,10 +39,10 @@ Then verify it's installed.
 
 	compass help compass-intuit
 
-@imports have been branched out in this extension, additionally you can use these:
+Imports have been branched out in this extension, additionally you can use these:
 
 	@import "intuit/generic";
-	
+
 	@import "intuit/base";
 
 	@import "intuit/objects";
@@ -65,7 +65,7 @@ been possible without inspiration and work from an array of other people.
 
 And probably more…
 
-This Compass extension was ported by **[Stephen Way](https://twitter.com/stephencway)**
+This Compass extension was created by **[Stephen Way](https://twitter.com/stephencway)**
 
 **inuit.css is the most powerful little framework out there, and it’s ready to
 go!**
