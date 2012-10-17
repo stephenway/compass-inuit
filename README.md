@@ -1,6 +1,6 @@
 # ![inuit.css](http://csswizardry.com/inuitcss/img/logo.jpg)
 
-A powerful little Compass extension for intuit.css for _insanely serious_ developers who use Compass.
+A powerful little Compass extension for inuit.css for _insanely serious_ developers who use Compass.
 
 ## Installation
 
@@ -12,7 +12,7 @@ If you want to bundle into your app, install bundler.
 With Bundler installed, add this to your Gemfile.
 
 	group :assets do
-		gem 'compass-intuit'
+		gem 'compass-inuit'
 	end
 
 Run this in the command line:
@@ -23,29 +23,29 @@ Run this in the command line:
 ### Manual
 If bundler isn't your thing, install this gem.
 	
-	$ gem install compass-intuit
+	$ gem install compass-inuit
 
 Next in your Compass project add this to your config.rb
 
-	require 'compass-intuit'
+	require 'compass-inuit'
 
 ## Documentation
 
 To get started install into your project.
 
-	compass install compass-intuit
+	compass install compass-inuit
 
 Then verify it's installed.
 
-	compass help compass-intuit
+	compass help compass-inuit
 
 Imports have been branched out in this extension, additionally you can use these:
 
-	@import "intuit/generic";
+	@import "inuit/generic";
 
-	@import "intuit/base";
+	@import "inuit/base";
 
-	@import "intuit/objects";
+	@import "inuit/objects";
 
 ## Support inuit.css
 
