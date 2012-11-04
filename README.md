@@ -7,7 +7,7 @@ A powerful little Compass extension for inuit.css for _insanely serious_ develop
 ### Bundler
 If you want to bundle into your app, install bundler.
 	
-	$ gem install bundler
+	$ sudo gem install bundler
 
 With Bundler installed, add this to your Gemfile.
 
@@ -23,7 +23,7 @@ Run this in the command line:
 ### Manual
 If bundler isn't your thing, install this gem.
 	
-	$ gem install compass-inuit
+	$ sudo gem install compass-inuit
 
 Next in your Compass project add this to your config.rb
 
