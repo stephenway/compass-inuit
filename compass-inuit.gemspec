@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name            = "compass-inuit"
-  gem.version         = "4.0.0"
+  gem.version         = "4.1.0"
   gem.authors         = ["Stephen Way"]
   gem.email           = ["stephen@swy.me"]
   gem.description     = "inuit.css for compass—cooler than a polar bear’s toenails"
