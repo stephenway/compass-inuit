@@ -8,9 +8,11 @@
  * Add hover behaviour to only slected items within links, e.g.:
  * 
    <a href=log-in class=complex-link>
-       <i class="s s-user"></i>
-       <span class=link-target>Log in</span>
+       <i class="s s--user"></i>
+       <span class=complex-link__target>Log in</span>
    </a>
+ * 
+ * Demo: jsfiddle.net/inuitcss/rt9M3
  * 
  */
 .complex-link,
@@ -19,8 +21,8 @@
 .complex-link:focus{
     text-decoration:none;
 }
-    .complex-link:hover .link-target,
-    .complex-link:active .link-target,
-    .complex-link:focus .link-target{
+    .complex-link:hover .complex-link__target,
+    .complex-link:active .complex-link__target,
+    .complex-link:focus .complex-link__target{
         text-decoration:underline;
     }

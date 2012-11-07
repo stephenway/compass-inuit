@@ -3,6 +3,9 @@
 \*------------------------------------*/
 /**
  * Basic button structural styling. Extend in your theme stylesheet.
+ * 
+ * Demo: jsfiddle.net/inuitcss/RqHcp
+ * 
  */
 .btn{
     font:inherit;
@@ -22,10 +25,10 @@
         text-decoration:none;
     }
 
-.btn-sml { font-size: .75em; }
-.btn-lrg { font-size:1.50em; }
+.btn--sml { font-size: .75em; }
+.btn--lrg { font-size:1.50em; }
 
-.btn-full{
+.btn--full{
     display:block;
     text-align:center;
     /**
