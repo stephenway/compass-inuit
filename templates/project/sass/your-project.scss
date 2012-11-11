@@ -14,3 +14,17 @@
 @import "compass-inuit";
 
 // She’s all yours, cap’n... Begin importing your stuff here.
+
+html{
+    font:1em/1.5 Georgia, serif;
+    background-color:#fff;
+    color:#333;
+}
+.wrapper{
+    max-width:960px;
+    padding:0 24px;
+    margin:0 auto;
+}
+.footer{
+    margin-bottom:0;
+}​
