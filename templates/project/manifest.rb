@@ -1,3 +1,9 @@
 # Make sure you list all the project template files here in the manifest.
-stylesheet '_vars.scss'
-stylesheet 'your-project.scss', :media => 'screen, projection'
+stylesheet 'sass/_vars.scss'
+stylesheet 'sass/your-project.scss', :media => 'screen, projection'
+html 'index.html'
+file 'config.rb'
+
+welcome_message %Q{
+Now customize and compile!
+}

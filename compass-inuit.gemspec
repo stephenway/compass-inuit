@@ -1,14 +1,19 @@
 # -*- encoding: utf-8 -*-
-Gem::Specification.new do |gem|
-  gem.name            = "compass-inuit"
-  gem.version         = "4.1.0"
-  gem.authors         = ["Stephen Way"]
-  gem.email           = ["stephen@swy.me"]
-  gem.description     = "inuit.css for compass—cooler than a polar bear’s toenails"
-  gem.summary         = "inuit.css for compass—cooler than a polar bear’s toenails"
-  gem.homepage        = "http://github.com/stephenway/compass-intuit"
+Gem::Specification.new do |s|
+  s.version         = "4.1.1"
+  s.date            = "2012-11-10"
+  s.name            = "compass-inuit"
+  s.authors         = ["Stephen Way"]
+  s.email           = ["stephencway@me.com"]
+  s.description     = "inuit.css for compass—cooler than a polar bear’s toenails."
+  s.summary         = "inuit.css for compass—cooler than a polar bear’s toenails"
+  s.homepage        = "http://github.com/stephenway/compass-intuit"
 
-  gem.require_paths   = ["lib", "stylesheets", "templates"]
-  gem.add_dependency  "sass", ">= 3.2"
-  gem.add_dependency  "compass", ">= 0.12"
+  s.files = %w(README.md)
+  s.files += Dir.glob("lib/**/*.*")
+  s.files += Dir.glob("stylesheets/**/*.*")
+  s.files += Dir.glob("templates/**/*.*")
+  s.has_rdoc = false
+  s.add_dependency("sass", [">= 3.2"])
+  s.add_dependency("compass", [">= 0.12.2"])
 end
