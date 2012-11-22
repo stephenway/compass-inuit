@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.version         = "4.1.1"
-  s.date            = "2012-11-10"
+  s.version         = "4.1.5"
+  s.date            = "2012-12-21"
   s.name            = "compass-inuit"
   s.authors         = ["Stephen Way"]
   s.email           = ["stephencway@me.com"]
-  s.description     = "inuit.css for compass—cooler than a polar bear’s toenails."
+  s.description     = "Compass extension for the inuit.css framework."
   s.summary         = "inuit.css for compass—cooler than a polar bear’s toenails"
   s.homepage        = "http://github.com/stephenway/compass-intuit"
 

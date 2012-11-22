@@ -3,7 +3,7 @@
 \*------------------------------------*/
 /**
  * A series of classes for setting tiny type; for use in smallprint etc.
- *
+ * 
  * `small` is relative to whatever its parent is, `.milli` and `.micro` are
  * absolute.
  */
@@ -13,9 +13,7 @@ small{
 .smallprint,
 .milli{
     @include font-size($milli-size);
-    line-height:1;      /* 12px */
 }
 .micro{
     @include font-size($micro-size);
-    line-height:1.2;    /* 12px */
 }

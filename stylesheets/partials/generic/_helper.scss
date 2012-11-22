@@ -15,17 +15,20 @@
     text-align:center;
 }
 
+
 /**
  * Pull items full width of `.island` parents.
  */
 .full-bleed{
     margin-right:-$base-spacing-unit +px;
     margin-left: -$base-spacing-unit +px;
+    
+    .islet &{
+        margin-right:-($half-spacing-unit) +px;
+        margin-left: -($half-spacing-unit) +px;
+    }
 }
-.islet > .full-bleed{
-    margin-right:-($half-spacing-unit) +px;
-    margin-left: -($half-spacing-unit) +px;
-}
+
 
 /**
  * Add a help cursor to any element that gives the user extra information on
@@ -35,25 +38,28 @@
     cursor:help;
 }
 
+
 /**
  * Align items to the right where they imply progression/movement forward, e.g.:
- *
+ * 
    <p class=proceed><a href=#>Read more...</a></p>
- *
+ * 
  */
 .proceed{
     text-align:right;
 }
 
+
 /**
  * Add a right-angled quote to links that imply movement, e.g.:
- *
+ * 
    <a href=# class=go>Read more</a>
- *
+ * 
  */
 .go:after{
     content:" »";
 }
+
 
 /**
  * Apply capital case to an element (usually a `strong`).
@@ -61,6 +67,7 @@
 .caps{
     text-transform:uppercase;
 }
+
 
 /**
  * Hide content off-screen without resorting to `display:none;`

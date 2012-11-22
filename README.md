@@ -53,19 +53,9 @@ If you use and/or like inuit.css, perhaps you might consider [supporting it
 through Gumroad](http://gum.co/nOoht).
 
 ## Credits
+Based on **[Harry Roberts's](http://github.com/csswizardry)** inuit.css framework.
 
-inuit.css, although produced and maintained by one developer, could not have
-been possible without inspiration and work from an array of other people.
-
-* **[Nicole Sullivan](https://twitter.com/stubbornella)** for her work on OOCSS
-* **[Jonathan Snook](https://twitter.com/snookca)** for his work on SMACSS
-* **[Nicolas Gallagher](https://twitter.com/necolas)** for his work on various
-  CSS things
-* **[Bryan James](https://twitter.com/WengersToyBus)** for the inuit.css logo
-
-And probably more…
-
-This Compass extension was created by **[Stephen Way](https://twitter.com/stephencway)**
+This extension was created by **[Stephen Way](http://github.com/stephenway)**
 
 **inuit.css is the most powerful little framework out there, and it’s ready to
 go!**

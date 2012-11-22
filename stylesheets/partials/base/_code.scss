@@ -16,11 +16,12 @@ pre{
         color:inherit;
     }
 
+
 /**
  * Add comments to your code examples, e.g.:
- *
+ * 
    <code>&lt;/div&gt;<span class=code-comment>&lt;!-- /wrapper --&gt;</span></code>
- *
+ * 
  */
 .code-comment{
     /**
@@ -30,9 +31,11 @@ pre{
     filter:alpha(opacity=75);
 }
 
+
 /**
  * You can add line numbers to your code examples but be warned, it requires
- * some pretty funky looking markup, e.g.:
+ * some pretty funky looking (and technically invalid) markup, e.g.:
+ * 
    <pre class=numbered>
        <ol class=numbered__numbers>
            <li><code>.nav{</code></li>
@@ -46,7 +49,8 @@ pre{
            <li><code>            zoom:1;</code></li>
            <li><code>        }</code></li>
        </ol>
-   </pre>​
+   </pre>
+ * 
  */
 .numbered{
     white-space:nowrap;
