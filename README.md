@@ -1,6 +1,9 @@
-# ![inuit.css](http://i.imgur.com/dkBoq.png)
+# ![compass-inuit](http://i.imgur.com/dkBoq.png)
 
 A powerful little Compass extension for inuit.css for _insanely serious_ developers.
+
+## Contribe
+Please fork this repository, then submit a pull request with your changes in a new topic branch.
 
 ## Installation
 
