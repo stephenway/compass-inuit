@@ -1,4 +1,4 @@
-# ![inuit.css](http://csswizardry.com/inuitcss/img/logo.jpg)
+# ![inuit.css](http://i.imgur.com/dkBoq.png)
 
 A powerful little Compass extension for inuit.css for _insanely serious_ developers who use Compass.
 
@@ -6,7 +6,7 @@ A powerful little Compass extension for inuit.css for _insanely serious_ develop
 
 ### Bundler
 If you want to bundle into your app, install bundler.
-	
+
 	$ sudo gem install bundler
 
 With Bundler installed, add this to your Gemfile.
@@ -22,7 +22,7 @@ Run this in the command line:
 
 ### Manual
 If bundler isn't your thing, install this gem.
-	
+
 	$ sudo gem install compass-inuit
 
 Next in your Compass project add this to your config.rb
@@ -47,15 +47,8 @@ Imports have been branched out in this extension, additionally you can use these
 
 	@import "inuit/objects";
 
-## Support inuit.css
-
-If you use and/or like inuit.css, perhaps you might consider [supporting it
-through Gumroad](http://gum.co/nOoht).
 
 ## Credits
 Based on **[Harry Roberts's](http://github.com/csswizardry)** inuit.css framework.
 
 This extension was created by **[Stephen Way](http://github.com/stephenway)**
-
-**inuit.css is the most powerful little framework out there, and it’s ready to
-go!**
