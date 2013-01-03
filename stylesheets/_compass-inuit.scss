@@ -140,21 +140,11 @@
 /*------------------------------------*\
     $IMPORTS
 \*------------------------------------*/
-/**
- * Generic utility styles etc.
- * Style trumps; helper and brand classes
- */
+
 @import "partials/generic";
 
-/**
- * Base styles; unclassed HTML elements etc.
- */
 @import "partials/base";
 
-/**
- * Objects and abstractions
- *
- * Single-line comment (//) out any objects you do not need in your project.
- */
 @import "partials/objects";
-// @import "example/unnecessary/file";
+ 
+@import "partials/helpers";

@@ -1,27 +1,30 @@
 /**
  * Objects and abstractions
+ *
+ * Single-line comment (//) out any objects you do not need in your project.
  */
-@import "partials/objects/arrows";
-@import "partials/objects/block-list";
-@import "partials/objects/breadcrumb";
-@import "partials/objects/buttons";
-@import "partials/objects/columns";
-@import "partials/objects/flexbox";
-@import "partials/objects/flyout";
-@import "partials/objects/greybox";
 @import "partials/objects/grids";
-@import "partials/objects/icon-text";
-@import "partials/objects/island";
-@import "partials/objects/link-complex";
-@import "partials/objects/lozenges";
-@import "partials/objects/marginalia";
-@import "partials/objects/matrix";
-@import "partials/objects/media";
+@import "partials/objects/flexbox";
+@import "partials/objects/columns";
 @import "partials/objects/nav";
 @import "partials/objects/options";
 @import "partials/objects/pagination";
-@import "partials/objects/rules";
+@import "partials/objects/breadcrumb";
+@import "partials/objects/media";
+@import "partials/objects/marginalia";
+@import "partials/objects/island";
+@import "partials/objects/block-list";
+@import "partials/objects/matrix";
 @import "partials/objects/split";
-@import "partials/objects/sprite";
-@import "partials/objects/stats";
+// @import "example/unnecessary/file";
 @import "partials/objects/this-or-this";
+@import "partials/objects/link-complex";
+@import "partials/objects/flyout";
+@import "partials/objects/arrows";
+@import "partials/objects/sprite";
+@import "partials/objects/icon-text";
+@import "partials/objects/buttons";
+@import "partials/objects/lozenges";
+@import "partials/objects/rules";
+@import "partials/objects/stats";
+@import "partials/objects/greybox";
