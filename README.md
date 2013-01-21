@@ -34,6 +34,10 @@ Next in your Compass project add this to your config.rb
 
 ## Documentation
 
+To quick-start a new inuit project run this command.
+
+	compass create my_project -r compass-inuit --using compass-inuit
+
 To get started install into your project.
 
 	compass install compass-inuit
