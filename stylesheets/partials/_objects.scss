@@ -1,7 +1,5 @@
 /**
  * Objects and abstractions
- *
- * Single-line comment (//) out any objects you do not need in your project.
  */
 @import "partials/objects/grids";
 @import "partials/objects/flexbox";
@@ -16,7 +14,6 @@
 @import "partials/objects/block-list";
 @import "partials/objects/matrix";
 @import "partials/objects/split";
-// @import "example/unnecessary/file";
 @import "partials/objects/this-or-this";
 @import "partials/objects/link-complex";
 @import "partials/objects/flyout";
@@ -28,3 +25,4 @@
 @import "partials/objects/rules";
 @import "partials/objects/stats";
 @import "partials/objects/greybox";
+@import "partials/objects/batch";
