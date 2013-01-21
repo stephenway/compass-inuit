@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.version         = "4.5"
+  s.version         = "4.5.4"
   s.date            = "2013-01-06"
   s.name            = "compass-inuit"
   s.authors         = ["Stephen Way"]
