@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.version         = "4.5.4.1"
-  s.date            = "2013-01-06"
+  s.version         = "4.5.5"
+  s.date            = "2013-02-09"
   s.name            = "compass-inuit"
   s.authors         = ["Stephen Way"]
   s.email           = ["stephencway@me.com"]
@@ -14,6 +14,5 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("stylesheets/**/*.*")
   s.files += Dir.glob("templates/**/*.*")
   s.has_rdoc = false
-  s.add_dependency("sass", [">= 3.2"])
   s.add_dependency("compass", [">= 0.12.2"])
 end
