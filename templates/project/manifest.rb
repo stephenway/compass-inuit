@@ -1,6 +1,6 @@
 # Make sure you list all the project template files here in the manifest.
-stylesheet 'sass/style.scss', :media => 'screen, projection'
-stylesheet 'sass/_vars.scss'
+stylesheet 'style.scss', :media => 'screen, projection'
+stylesheet '_vars.scss'
 html 'index.html'
 file 'config.rb'
 file 'watch.sh'
