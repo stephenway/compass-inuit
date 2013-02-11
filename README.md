@@ -1,4 +1,4 @@
-# ![compass-inuit](http://i.imgur.com/22tof.png)
+# ![compass-inuit](http://i.imgur.com/rsz0nwt.png)
 
 A powerful little Compass extension for inuit.css for _insanely serious_ developers.
 
