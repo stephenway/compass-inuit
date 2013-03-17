@@ -1,16 +1,18 @@
+@if $use-island == true{
+
 /*------------------------------------*\
     $ISLAND
 \*------------------------------------*/
 /**
  * Simple, boxed off content, as per: csswizardry.com/2011/10/the-island-object
  * E.g.:
- * 
+ *
    <div class=island>
        I am boxed off.
    </div>
- * 
+ *
  * Demo: jsfiddle.net/inuitcss/u8pV3
- * 
+ *
  */
 .island,
 .islet{
@@ -32,3 +34,5 @@
 .islet{
     padding:$half-spacing-unit;
 }
+
+}//endif

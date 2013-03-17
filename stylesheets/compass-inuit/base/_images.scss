@@ -22,6 +22,12 @@ img[height]{
 
 
 /**
+ * Rounded images.
+ */
+.img--round { border-radius:$brand-round; }
+
+
+/**
  * Image placement variations.
  */
 .img--right{
@@ -44,7 +50,7 @@ img[height]{
 
 /**
  * Keep your images on your baseline.
- * 
+ *
  * Please note, these will not work too nicely with fluid images and will
  * distort when resized below a certain width. Use with caution.
  */
