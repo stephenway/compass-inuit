@@ -2,13 +2,13 @@
     $RESET
 \*------------------------------------*/
 /**
- * A more considered reset; more of a restart... 
+ * A more considered reset; more of a restart...
  * As per: csswizardry.com/2011/10/reset-restarted
  */
 
 @if $global-border-box == true{
     /**
-    * Let’s make the box model all nice, shall we…?
+    * Let’s make the box model all nice, shall we...?
     */
     *{
         &,
@@ -42,7 +42,7 @@ abbr[title],dfn[title]{
 /**
  * Remove underlines from potentially troublesome elements.
  */
-a,u,ins{
+u,ins{
     text-decoration:none;
 }
 
