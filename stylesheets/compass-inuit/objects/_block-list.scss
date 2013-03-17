@@ -1,26 +1,28 @@
+@if $use-block-list == true or $use-matrix == true{
+
 /*------------------------------------*\
     $BLOCK-LIST
 \*------------------------------------*/
 /**
  * Create big blocky lists of content, e.g.:
- * 
+ *
    <ul class=block-list>
       <li>Foo</li>
       <li>Bar</li>
       <li>Baz</li>
       <li><a href=# class=block-list__link>Foo Bar Baz</a></li>
    </ul>
- * 
+ *
  * Extend this object in your theme stylesheet.
- * 
+ *
  * Demo: jsfiddle.net/inuitcss/hR57q
- * 
+ *
  */
 .block-list{
-    
+
     &,
     > li{
-        border:0 solid #ccc; /* Override this color in your theme stylesheet */
+        border:0 solid $base-ui-color;
     }
 }
 .block-list{
@@ -38,3 +40,5 @@
             padding:$half-spacing-unit;
             margin:-$half-spacing-unit;
         }
+
+}//endif

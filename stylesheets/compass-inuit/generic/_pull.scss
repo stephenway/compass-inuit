@@ -5,11 +5,6 @@
  * Pull classes, to move grid items over to the right by certain amounts.
  */
 
-/**
- * Not a particularly great selector, but the DRYest way to do things.
- */
-[class*="pull--"]{ position:relative; }
-
 @mixin pull-setup($namespace: "") {
 
     /**
@@ -100,24 +95,53 @@
     .pull--#{$namespace}eleven-twelfths     { right:91.666%; }
 }
 
+@if $pull == true{
+
+/**
+ * Not a particularly great selector, but the DRYest way to do things.
+ */
+[class*="pull--"]{ position:relative; }
+
 @include pull-setup();
 
-@if $responsive-pull == true{
+@if $palm-pull == true{
 
-@include media-query(palm){
-    @include pull-setup("palm-");
+    @include media-query(palm){
+        @include pull-setup("palm-");
+    }
+
 }
 
-@include media-query(lap){
-    @include pull-setup("lap-");
+@if $lap-pull == true{
+
+    @include media-query(lap){
+        @include pull-setup("lap-");
+    }
+
 }
 
-@include media-query(portable){
-    @include pull-setup("portable-");
+@if $lap-and-up-pull == true{
+
+    @include media-query(lap-and-up){
+        @include pull-setup("lap-and-up-");
+    }
+
 }
 
-@include media-query(desk){
-    @include pull-setup("desk-");
+@if $portable-pull == true{
+
+    @include media-query(portable){
+        @include pull-setup("portable-");
+    }
+
 }
 
-} /* endif */
+@if $desk-pull == true{
+
+    @include media-query(desk){
+        @include pull-setup("desk-");
+    }
+
+}
+
+}//endif
