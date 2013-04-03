@@ -19,7 +19,8 @@
 // Optionally Import Everything
 // @import "compass-inuit";
 
-// Optionally Import Sections
+// Optionally Import Sections (defaults required)
+@import "compass-inuit/defaults";
 // @import "compass-inuit/generic";
 // @import "compass-inuit/base";
 // @import "compass-inuit/objects";
