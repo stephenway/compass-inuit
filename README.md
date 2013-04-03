@@ -80,7 +80,6 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/base/smallprint";
 	@import "compass-inuit/base/quotes";
 	@import "compass-inuit/base/code";
-	@import "compass-inuit/base/links";
 	@import "compass-inuit/base/images";
 	@import "compass-inuit/base/lists";
 	@import "compass-inuit/base/tables";
@@ -106,12 +105,11 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/objects/arrows";
 	@import "compass-inuit/objects/sprite";
 	@import "compass-inuit/objects/icon-text";
-	@import "compass-inuit/objects/buttons";
+	@import "compass-inuit/objects/beautons";
 	@import "compass-inuit/objects/lozenges";
 	@import "compass-inuit/objects/rules";
 	@import "compass-inuit/objects/stats";
 	@import "compass-inuit/objects/greybox";
-	@import "compass-inuit/objects/batch";
 
 This makes it super simple to pick and choose what you want for your project.
 
