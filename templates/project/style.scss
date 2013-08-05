@@ -15,12 +15,12 @@
  * Setup
  */
 @import "vars";
+@import "compass-inuit/defaults";
 
 // Optionally Import Everything
 // @import "compass-inuit";
 
-// Optionally Import Sections (defaults required)
-@import "compass-inuit/defaults";
+// Optionally Import Sections
 // @import "compass-inuit/generic";
 // @import "compass-inuit/base";
 // @import "compass-inuit/objects";
