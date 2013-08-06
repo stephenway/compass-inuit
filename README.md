@@ -65,14 +65,6 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/generic/clearfix";
 	@import "compass-inuit/generic/shared";
 
-	// Helpers
-	@import "compass-inuit/generic/widths";
-	@import "compass-inuit/generic/push";
-	@import "compass-inuit/generic/pull";
-	@import "compass-inuit/generic/brand";
-	@import "compass-inuit/generic/helper";
-	@import "compass-inuit/generic/debug";
-
 	// Base
 	@import "compass-inuit/base/main";
 	@import "compass-inuit/base/headings";
@@ -110,6 +102,14 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/objects/rules";
 	@import "compass-inuit/objects/stats";
 	@import "compass-inuit/objects/greybox";
+
+	// Helpers
+	@import "compass-inuit/generic/widths";
+	@import "compass-inuit/generic/push";
+	@import "compass-inuit/generic/pull";
+	@import "compass-inuit/generic/brand";
+	@import "compass-inuit/generic/helper";
+	@import "compass-inuit/generic/debug";
 
 This makes it super simple to pick and choose what you want for your project.
 
