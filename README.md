@@ -2,7 +2,7 @@
 
 A powerful little Compass extension for inuit.css for _insanely serious_ developers.
 
-## Contribe
+## Contribute
 Please fork this repository, then submit a pull request with your changes in a new topic branch.
 
 ## Installation
@@ -48,24 +48,25 @@ Then verify it's installed.
 
 Imports have been branched out in this extension, additionally you can use these:
 
-**Level 1**
+### Sections
 
 	@import "compass-inuit/generic";
-
 	@import "compass-inuit/base";
-
 	@import "compass-inuit/objects";
 
-**Level 2**
+### Modules
 
-	// Generic
+#### Generic
+
+	@import "compass-inuit/defaults";
 	@import "compass-inuit/generic/mixins";
 	@import "compass-inuit/generic/normalize";
 	@import "compass-inuit/generic/reset";
 	@import "compass-inuit/generic/clearfix";
 	@import "compass-inuit/generic/shared";
 
-	// Base
+#### Base
+
 	@import "compass-inuit/base/main";
 	@import "compass-inuit/base/headings";
 	@import "compass-inuit/base/paragraphs";
@@ -77,7 +78,8 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/base/tables";
 	@import "compass-inuit/base/forms";
 
-	// Objects
+#### Objects
+
 	@import "compass-inuit/objects/grids";
 	@import "compass-inuit/objects/flexbox";
 	@import "compass-inuit/objects/columns";
@@ -103,7 +105,8 @@ Imports have been branched out in this extension, additionally you can use these
 	@import "compass-inuit/objects/stats";
 	@import "compass-inuit/objects/greybox";
 
-	// Helpers
+#### Helpers
+
 	@import "compass-inuit/generic/widths";
 	@import "compass-inuit/generic/push";
 	@import "compass-inuit/generic/pull";
