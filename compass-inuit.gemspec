@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.version         = "5.0.1"
-  s.date            = "2013-04-03"
+  s.version         = "5.0.2"
+  s.date            = "2013-08-07"
   s.name            = "compass-inuit"
   s.authors         = ["Stephen Way"]
   s.email           = ["stephencway@me.com"]
