@@ -7,30 +7,14 @@ Please fork this repository, then submit a pull request with your changes in a n
 
 ## Installation
 
-### Bundler
-If you want to bundle into your app, install bundler.
+# `gem install compass-inuit`
 
-	$ sudo gem install bundler
-
-With Bundler installed, add this to your Gemfile.
-
-	group :assets do
-		gem 'compass-inuit'
-	end
-
-Run this in the command line:
-
-	$ bundle install
-	$ git add Gemfile Gemfile.lock
-
-### Manual
-If bundler isn't your thing, install this gem.
-
-	$ sudo gem install compass-inuit
-
-Next in your Compass project add this to your config.rb
-
+	# config.rb
 	require 'compass-inuit'
+
+---
+
+**[Bundler Instructions](http://bundler.io/#getting-started)**
 
 ## Documentation
 
