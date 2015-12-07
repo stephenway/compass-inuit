@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email           = ["stephencway@me.com"]
   s.description     = "Compass extension for the inuit.css framework."
   s.summary         = "inuit.css for compass—cooler than a polar bear’s toenails"
-  s.homepage        = "http://github.com/stephenway/compass-intuit"
+  s.homepage        = "http://github.com/stephenway/compass-inuit"
 
   s.files = %w(README.md)
   s.files += Dir.glob("lib/**/*.*")
